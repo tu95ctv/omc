@@ -15,4 +15,4 @@ print 'get_text after',get_text
 def a():
     print 'adf'
 print sys.getsizeof(a)
-
+print 'abcd'
