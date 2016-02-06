@@ -611,7 +611,6 @@ import shutil
 def remove_folder(path):
     shutil.rmtree(path)
 if __name__ == '__main__':
-    
     create_user()
     grant_permission_to_group()
     check_permission_of_group()
