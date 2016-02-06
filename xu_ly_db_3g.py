@@ -611,13 +611,15 @@ import shutil
 def remove_folder(path):
     shutil.rmtree(path)
 if __name__ == '__main__':
-    #create_user()
-    #grant_permission_to_group()
-    #check_permission_of_group()
-    #import_doi_tac()
-    #import_TrangThaiCuaTram()
-    #create_ca_truc()
-    #import_thao_tac()
+    
+    create_user()
+    grant_permission_to_group()
+    check_permission_of_group()
+    import_doi_tac()
+    import_TrangThaiCuaTram()
+    create_ca_truc()
+    import_thao_tac()
     #create_nguyen_nhan()
-    import_database_4_cai_new(['Excel_3G','Excel_to_2g','Excel_to_2g_config_SRAN','Excel_to_3g_location','Excel_NSM','Excel_ALU'] )
+    #import_database_4_cai_new(['Excel_3G','Excel_to_2g','Excel_to_2g_config_SRAN','Excel_to_3g_location','Excel_NSM','Excel_ALU'] )
    
+    
