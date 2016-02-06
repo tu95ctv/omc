@@ -1,5 +1,7 @@
 
 
+
+
 def fibo():
     print s
 s ='bien global s in test7 duoc in boi am fibo() trong test7'
